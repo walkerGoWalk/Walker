@@ -1,6 +1,6 @@
 package com.kodilla;
 import java.util.Scanner;
-//com.kodilla.Calculator;
+
 class Calculator {
     static void calculatePlus(int a, int b) {
         int sum = a + b;
