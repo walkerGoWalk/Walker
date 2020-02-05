@@ -10,13 +10,7 @@ public class ShapeCollector {
     }
     public boolean removeFigure(Shape shape) {
         return allShapes.remove(shape);
-      //  boolean result = false;
 
-//        if(allShapes.contains(shape)){
-//            allShapes.remove(shape);
-//            result = true;
-//        }
-//        return result;
     }
 
 
@@ -28,13 +22,7 @@ public class ShapeCollector {
         }
         return myShape;
     }
-//    public void showFigures() {
-//        String result = new String();
-//        for(Shape figure: allShapes){
-//            result = result + figure + ", field: " + figure.getField();
-//        }
-//        System.out.println(result);
-//    }
+
     public int getShapeSize() {
        return allShapes.size();
     }
